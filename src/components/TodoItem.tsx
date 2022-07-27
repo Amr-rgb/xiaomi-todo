@@ -34,7 +34,7 @@ export const TodoItem = ({ todo, toggleTodo, isCompleted }: TodoItemType) => {
         />
       </div>
       <h2
-        className={`todo-title font-medium text-sm ${
+        className={`todo-title truncate font-medium text-sm ${
           todo.completed ? "text-gray-400 before:right-0" : "before:right-full"
         }`}
       >
