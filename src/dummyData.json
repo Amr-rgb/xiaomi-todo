@@ -1,29 +1,32 @@
 {
-  "todos": [
-    {
-      "id": 0,
-      "title": "A new todo",
-      "completed": false
-    },
-    {
-      "id": 1,
-      "title": "Learn Python",
-      "completed": false
-    },
-    {
-      "id": 2,
-      "title": "Do Great Things",
-      "completed": false
-    },
-    {
-      "id": 3,
-      "title": "Read A Book",
-      "completed": false
-    },
-    {
-      "id": 4,
-      "title": "Sleep",
-      "completed": false
-    }
-  ]
+  "todos": {
+    "notCompleted": [
+      {
+        "id": 0,
+        "title": "A new todo",
+        "completed": false
+      },
+      {
+        "id": 1,
+        "title": "Learn Python",
+        "completed": false
+      },
+      {
+        "id": 2,
+        "title": "Do Great Things",
+        "completed": false
+      },
+      {
+        "id": 3,
+        "title": "Read A Book",
+        "completed": false
+      },
+      {
+        "id": 4,
+        "title": "Sleep",
+        "completed": false
+      }
+    ],
+    "completed": []
+  }
 }
