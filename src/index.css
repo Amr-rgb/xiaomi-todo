@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .todo-title {
+    @apply relative overflow-hidden before:absolute before:w-full before:border before:border-orange-400 before:top-1/2 before:duration-[400ms] duration-300;
+  }
+
+  .todo.not-completed .todo-title {
+    @apply before:right-full;
+  }
+  .todo.completed .todo-title {
+    @apply text-gray-400 before:right-0;
+  }
+
+  .todo.not-completed .check-icon {
+    @apply bg-transparent text-transparent;
+  }
+  .todo.completed .check-icon {
+    @apply bg-orange-400 text-white;
+  }
+}

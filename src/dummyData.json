@@ -7,22 +7,22 @@
     },
     {
       "id": 1,
-      "title": "A new todo",
+      "title": "Learn Python",
       "completed": false
     },
     {
       "id": 2,
-      "title": "A new todo",
+      "title": "Do Great Things",
       "completed": false
     },
     {
       "id": 3,
-      "title": "A new todo",
+      "title": "Read A Book",
       "completed": false
     },
     {
       "id": 4,
-      "title": "A new todo",
+      "title": "Sleep",
       "completed": false
     }
   ]
